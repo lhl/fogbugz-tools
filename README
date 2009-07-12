@@ -1,0 +1,36 @@
+fogbugz-tools
+===
+A set of tools to make life easier using FogBugz.  Licensed under GPLv3.
+
+
+FogBugz Useful Quick Input Greasemonkey Script
+---
+This script makes the quick entry actually useful by letting you modify several options
+including:
+
+* Category
+* Who to assign it to
+* Time estimate
+* Due Date
+* Priority
+
+This should also save the last entered as the default in a cookie...
+
+FogBugz Spreadsheet
+---
+This tool will export and import from a CSV to allow bulk editing of cases.
+
+
+
+
+FogBugz: MakeItBetter
+===
+There are lots of things I wish were better about FogBugz - also, the API is clunky and unpleasant.  That being said, I don't see myself writing a better task tracking system anytime soon and it's the only one I know that does good effort tracking, so...
+
+- Why is the quick entry field so useless? (auto assigns to first category/user, no
+  ability for time estimates or any other field)
+- Why can't I do bulk entry?
+- Why is the API so complex/bad? - It's pretty much impossible to create a case without
+  doing a half-dozen calls to try to get ID's for users, categories, types, etc...
+- Why doesn't the New Case screen remember your last selected fields and default to them?
+- Why does a case detail have an additional edit screen?  Let me edit from the same page  if I have permissions
